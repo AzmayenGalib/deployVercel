@@ -2,8 +2,8 @@ const ErrorHander = require("../utils/errorHander");
 const catchAsyncErrors = require("./catchAsyncErrors");
 const jwt = require("jsonwebtoken");
 const User = require("../models/userModel");
-const dotenv = require("dotenv");
-dotenv.config({ path: "Backend/config/config.env" });
+/* const dotenv = require("dotenv");
+dotenv.config({ path: "Backend/config/config.env" }); */
 
 
 // creating middleware function for User authentication
